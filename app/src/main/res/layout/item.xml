@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp">
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昨天"
+        android:textColor="@color/colorB"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textDay"
+        android:text="12/5"
+        android:textColor="@color/colorB" />
+
+    <ImageView
+        android:id="@+id/textImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textType1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textImage"
+        android:text="晴天" />
+
+    <TextView
+        android:id="@+id/maxHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:text="7°"
+        android:textColor="@color/colorB" />
+
+    <TextView
+        android:id="@+id/wu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:text="~"
+        android:textColor="@color/colorB" />
+
+    <TextView
+        android:id="@+id/minHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:text="-4°"
+        android:textColor="@color/colorB" />
+
+</RelativeLayout>
